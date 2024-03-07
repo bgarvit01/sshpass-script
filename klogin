@@ -5,4 +5,4 @@ if [ -z "$1" ]; then
 fi
 ssh-keygen -F $1 >/dev/null && ssh-keygen -R $1 
 ssh-keyscan -H $1 >> ~/.ssh/known_hosts
-sshpass -p "YOUR-PASSWORD" ssh "your-username"@$1
+sshpass -p "YOUR-PASSWORD" ssh "YOUR-USERNAME"@$1
