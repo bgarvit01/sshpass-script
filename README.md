@@ -1,6 +1,6 @@
 # sshpass-script
 
-Written a script to ssh to any machine without a Password, without worrying about changes to public ssh keys
+Written a script to ssh to any machine (with a fixed username and password), without worrying about changes to public ssh keys
 
 **Script Steps**
 
@@ -12,9 +12,11 @@ Written a script to ssh to any machine without a Password, without worrying abou
 
 **How to run**
 
-1. Clone the repo 
+1. Clone the repo
 
-2. Install sshpass using your package manager, brew for MacOS users, use yum package manager for CentOS/RHEL
+2. Add Username and Password in klogin file
+
+3. Install sshpass using your package manager, brew for MacOS users, use yum package manager for CentOS/RHEL
    ```
    brew install sshpass
    ```
@@ -24,12 +26,12 @@ Written a script to ssh to any machine without a Password, without worrying abou
    chmod +x klogin
    ```
 
-6. Add the path of this directory to your PATH, example: "/Users/garvit.bhateja/sshpass-script"
+5. Add the path of this directory to your PATH, example: "/Users/garvit.bhateja/sshpass-script"
    ```
    sudo vi /etc/paths
    ```
 
-8. SSH using follwoing command
+6. SSH using follwoing command
    ```
    klogin 10.10.10.10
    ```
