@@ -1,6 +1,6 @@
 # sshpass-script
 
-Written a script to ssh to any machine without a Password, without worrying about public ssh keys
+Written a script to ssh to any machine without a Password, without worrying about changes to public ssh keys
 
 **Script Steps**
 
